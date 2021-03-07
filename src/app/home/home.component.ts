@@ -13,9 +13,4 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
-  // tslint:disable-next-line:typedef
-  onTabClick() {
-    alert('clicked');
-  }
 }

@@ -10,6 +10,7 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
 import { MainComponent } from './main/main.component';
+import {AppRoutingModules} from './app-routing.modules';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { MainComponent } from './main/main.component';
     BrowserAnimationsModule,
     MatToolbarModule,
     MatButtonModule,
-    MatIconModule
+    MatIconModule,
+    AppRoutingModules
   ],
   providers: [],
   bootstrap: [AppComponent]
